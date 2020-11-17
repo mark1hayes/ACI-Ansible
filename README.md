@@ -25,3 +25,9 @@ Once the collection is installed, you can use it in a playbook by specifying the
       bd: prod_bd
     delegate_to: localhost
 ```
+
+https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples
+
+	• APIC URL: https://sandboxapicdc.cisco.com
+	• Username: admin 
+	• Password: ciscopsdt
