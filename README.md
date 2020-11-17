@@ -7,6 +7,7 @@ docker run --rm -it -v $(pwd):/ansible -v ~/.ssh/id_rsa:/root/id_rsa willhallonl
 
 ansible-galaxy collection install cisco.aci
 ```
+https://github.com/CiscoDevNet/ansible-aci
 
 ## Use
 Once the collection is installed, you can use it in a playbook by specifying the full namespace path to the module, plugin and/or role.
