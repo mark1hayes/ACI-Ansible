@@ -1,5 +1,8 @@
 
 ```bash
+git clone https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples
+cd aci_ansible_learning_labs_code_samples
+
 docker run --rm -it -v $(pwd):/ansible -v ~/.ssh/id_rsa:/root/id_rsa willhallonline/ansible:latest /bin/sh
 
 ansible-galaxy collection install cisco.aci
